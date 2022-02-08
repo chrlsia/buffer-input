@@ -11,7 +11,7 @@ func main(){
 	//request user input
 	fmt.Print("\nEnter Text: ")
 
-	//store user input in a memory buffer
+	//indent to store user input in a memory buffer
 	scanner:=bufio.NewScanner(os.Stdin)
 
 	//read user input
